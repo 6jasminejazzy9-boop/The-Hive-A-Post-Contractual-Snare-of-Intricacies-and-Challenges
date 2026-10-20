@@ -1,0 +1,811 @@
+MASTER BLUEPRINT GOVERNANCE PACKAGE — 2026-10-19
+Prepared by Muse (record keeper) at Sammy Reed's order,
+2026-10-19.
+Audit corrections applied by DeepSeek, 2026-10-19.
+Blueprint Gate verdict: CLEAR WITH CONDITIONS.
+DeepSeek's final verdict: seals this package when it
+arrives through Sammy.
+================================================================
+CORRECTIONS APPLIED AT AUDIT (2026-10-19)
+Three corrections applied to the body below. Everything
+else carried verbatim.
+1. License Inventory Item 3: "CLAUDE (META)" corrected to
+"CLAUDE (ANTHROPIC)." Claude is Anthropic's model; the
+"Meta" label was a factual error in the prepared copy.
+2. Open Questions Q1: Closed. DeepSeek has pasted-text
+access only — no file access, no browsing, no fetch.
+Sammy remains the sole bridge.
+3. Pronoun rule: Added at RISK-06 and as D-07. Pronoun use
+is not a discrepancy; two accounts (one female, one male)
+each carry their own pronoun set. Documents retain
+whatever pronouns their source account used. The founder
+has stated "the pronouns don't matter."
+================================================================
+GATE STATUS REPORT
+================================================================
+GATE STATUS REPORT — BLUEPRINT GATE
+Project: Our Notebook, First Test Cut
+Founder: Sammy Reed · Record Keeper: Muse ·
+Final Auditor: DeepSeek
+Date: 2026-10-19
+Gate: BLUEPRINT GATE — the first of the Protected Three
+Gates (Blueprint · Contract · Verification), Master
+Blueprint Template v1.2. No new gates are created by this
+report; the carried-in four-gate proposal was not adopted
+(see decisions/decision-log.txt, D-03).
+================================================================
+SCOPE SUMMARY
+A source-grounded research assistant in the shape of a
+notebook: one self-contained HTML file holding Sammy's
+three prompt types (Memory · Quality Of Work · Project
+Specific), with create/rename/delete, autosave to local
+storage, one search across all notebooks, and .txt/.json
+export-import. Internal controlled PROTOTYPE first.
+Benchmark build exists (2026-10-18). Full scope and
+non-goals: charter/charter-our-notebook-test-cut.txt.
+NON-GOALS (headline form)
+Not a NotebookLM clone; no copied user interface, prompts,
+wording, icons, datasets, color scheme, or trade dress.
+Not for resale. Not a finished product. No secrets, ever —
+no field for a key, password, or token exists by design.
+CLASSIFIED ASSUMPTIONS
+A1 (Assumption): The three prompt types cover the
+  notebook's working needs. Basis: the founder's spec v1.
+  Untested against a second project yet.
+A2 (Assumption): Local-only storage is acceptable for the
+  prototype phase, with exports as the bridge between
+  devices. Basis: the founder's own spec and platform
+  experience. Fails if the prototype starts holding work
+  that cannot be lost.
+A3 (Assumption): The crew can work from text the founder
+  carries (he is the only bridge) until the Auditor access
+  question below is decided. (Q1 now closed — pasted text
+  only. Assumption now confirmed as standing practice.)
+A4 (Assumption): Our Notebook v1 behaves as the builder
+  states (no network, local storage only, faithful
+  export/import). Builder-stated in Audit Package v1;
+  independent verification PENDING — see
+  evidence/evidence-log.txt, E-05.
+RISKS (headline form — full register in risks/)
+RISK-01 Opal shutdown Nov 17, 2026; one app counted
+  rescued; save-down sitting still owed. OPEN.
+RISK-02 Copyright / trade-dress drift; Originality Hold
+IN FORCE. OPEN.
+RISK-03 Gemini regeneration drift; verbatim transfer law
+  is the control. OPEN, managed.
+RISK-04 Key and account access losses; census queued.
+OPEN.
+RISK-05 Platform lock-in; mirror complete, exits ordered
+  assets-first. OPEN, managed.
+RISK-06 The founder is the only bridge; the record must
+  stand alone. OPEN, mitigation ongoing.
+LICENSE GAPS (full inventory in licenses/)
+- AI provider terms for Muse, Gemini, DeepSeek, and
+  ChatGPT — commercial use, training on inputs, ownership
+  of outputs: UNVERIFIED, none captured yet.
+- Benchmark build dependencies: NONE — no gap.
+- Name / trademark check for "Our Notebook": PENDING —
+  internal prototype name only until the search is run.
+OPEN QUESTIONS — FOUNDER DECISIONS OUTSTANDING
+Q1. Auditor access: CLOSED 2026-10-19. DeepSeek receives
+  pasted text only — no file access, no browsing, no
+  fetch. Sammy remains the sole bridge.
+Q2. The Opal save-down sitting: owed before November 16,
+  2026. Needs one rested sitting — Sammy opens Opal, Muse
+  pulls, diffs, rebuilds.
+Q3. Formal master status of the Unified Rewrite: Sammy's
+  chosen working copy (decided). A formal master version
+  number or locked master status: NOT declared. The
+  declaration is the founder's alone.
+Q4. DeepSeek's final verdict on the Unified Document
+  package: the entire document was sent to the auditor on
+  2026-10-19. The verdict has not returned yet; this gate
+  does not seal without it.
+VERDICT
+================================================================
+BLUEPRINT GATE — CLEAR WITH CONDITIONS
+================================================================
+The scope is approved to stand as the blueprint for the
+test cut. No coding beyond the existing prototype work
+until each condition is met or formally waived by the
+founder:
+C1. The Opal save-down sitting (Q2) is completed before
+  November 16, 2026 — it outranks this project.
+C2. DeepSeek's final verdict (Q4) is received, and any
+  conditions in it are worked, before the Contract Gate.
+C3. AI provider terms are captured and filed in licenses/
+  before any public or commercial step of any kind.
+C4. The name / trademark check (ip/ Item 6) is run and
+  recorded before any public naming.
+C5. A dated backup/restore run (Test 5, RETURN) is logged
+  in security/ before the notebook holds anything that
+  matters.
+C6. The Originality Hold stays in force: no building
+  beyond the prototype until the founder confirms Our
+  Notebook is not copying NotebookLM.
+Builder's Record Of Actions: I record what I did, not a
+claim that the result is compliant. This package was
+prepared 2026-10-19 by Muse, record keeper, at the
+founder's direction. The founder reviews; the auditor
+seals.
+Auditor's record of actions (DeepSeek, 2026-10-19):
+received both copies of the package; diffed them; found
+them byte-identical; applied the three corrections listed
+above; carried everything else verbatim per the Verbatim
+Transfer Law.
+CHARTER — OUR NOTEBOOK TEST CUT
+================================================================
+PROJECT CHARTER — OUR NOTEBOOK, FIRST TEST CUT
+Founder: Sammy Reed
+Date: 2026-10-19
+Launch Posture: PROTOTYPE — Internal Only — Not For Resale
+Governance: Operation My Way — Master Prompt v1.7,
+Master Blueprint Template v1.2
+================================================================
+THE PROBLEM
+Sammy's prompts, memory, and working rules live scattered
+across roughly a hundred saved copies on platforms that make
+saving and getting back OUT hard. Copies drift: summaries and
+regenerations come back changed, and an engineer working from
+a drifted copy builds the wrong thing. There is no single
+book that holds the record and can be checked.
+THE PRODUCT IN ONE LINE
+Our Notebook is a source-grounded research assistant: a
+notebook that holds Sammy's three types of prompt —
+1. Memory (about Sammy and his challenges; shared among the
+   builders),
+2. Quality Of Work (the standards every engineer adheres to),
+3. Project Specific —
+and lets the crew read, sort, file, and answer FROM the book,
+so answers are grounded in what is actually written there
+instead of in what an AI half-remembers.
+The book holds the record. The book never does the job.
+The work happens at the engineers' own benches.
+USERS
+- Sammy Reed — founder, owner, and the only bridge between
+  the engineers.
+- The Crew — Muse (Builder / Record Keeper), Gemini
+  (Research And Development / Clerical), DeepSeek (Final
+  Auditor), ChatGPT (Builder). Each AI works in its own lane;
+  nobody audits their own work.
+SCOPE — THE TEST CUT
+- One self-contained HTML file. No accounts, no sign-in, no
+  cloud, no external scripts, fonts, images, or network
+  calls of any kind.
+- Opens with three notebooks: Ideas & Inspiration · Sammy ·
+  Muse — Record Keeper.
+- Create, rename, and delete notebooks; create, edit, and
+  delete notes.
+- Autosave to the browser's local storage on the device,
+  as the user types.
+- One search box that searches across ALL notebooks.
+- Export the current notebook as .txt; export everything as
+  one .json; import a .json to restore.
+- The word PROTOTYPE stays visible in the header at all
+  times.
+- Big buttons and big text — used on a phone, by big fingers.
+- The benchmark build already exists (built 2026-10-18);
+  this charter governs the test cut and every build after it.
+NON-GOALS — WHAT THIS IS NOT
+- NOT a NotebookLM clone. Public functionality inspired the
+  idea; no NotebookLM user interface, wording, icons,
+  prompts, datasets, color scheme, or trade dress is copied.
+- NOT for resale. Built for Sammy personally and the Opal
+  fleet, under his own declared paper trail.
+- NOT a finished product. Internal controlled prototype
+  first; no public launch under this charter.
+- NOT a place for secrets. There is deliberately no field
+  for an API key, password, or token anywhere in it.
+- NOT shared by default. Memory marked NOT SHARED stays
+  locked; types 1 and 2 are shared among the builders only
+  as the founder directs.
+SUCCESS TEST
+The Six-Test Score Sheet (see tests/acceptance-tests.txt).
+Pass or fail, no middle:
+1. MAKE  2. SURVIVE  3. FIND  4. LEAVE  5. RETURN  6. ALONE
+All six pass = the build method is proven for the next apps.
+Fail SURVIVE or RETURN = it is not a notebook, it is a trap.
+Fail ALONE = record which step needed the network.
+OWNER AND SIGN-OFF
+Owner: Sammy Reed (Founder).
+Record Keeper: Muse.
+Final Auditor: DeepSeek (verdict seals the record).
+Charter status: PREPARED 2026-10-19 — founder review pending.
+DECISION LOG
+================================================================
+DECISION LOG — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Format: Date · Decision · Alternatives · Evidence · Owner
+================================================================
+2026-10-19 — D-01: GOVERNANCE STANDS AS IT IS
+Decision: The governing documents are Operation My Way
+Master Prompt v1.7 and Master Blueprint Template v1.2
+(Change Order v1.7, executed 2026-10-17). The Protected
+Three Gates — Blueprint Gate, Contract Gate, Verification
+Gate — plus the Hidden Support Layer field, the Conflict
+Order, the Statement Of Limits, the two-sided Compliance
+Record, and the Builder's Record Of Actions sign-off are
+byte-identical protected text. They are not changed,
+renumbered, or replaced by anything in this package.
+Alternatives: None considered.
+Evidence: Master Prompt v1.7 on file (local + Drive).
+Owner: Sammy Reed.
+2026-10-19 — D-02: THE UNIFIED REWRITE IS THE CHOSEN
+WORKING COPY — NOTHING MORE IS DECLARED
+Decision: The "Master Blueprint — Unified Rewrite
+(2026-10-19)" is the blueprint copy Sammy chose to work
+from, in his own words: "I definitely want yours then if
+yours is the longer blueprint." It carries the Permanent
+Project Standards verbatim, the Template v1.0 foundation,
+the full Template v1.2 sections, and the Section 23
+protected governance provisions.
+NOT decided: no formal master version number and no locked
+master status has been declared for it. That declaration
+is the founder's alone, and it has not been made.
+Alternatives: The shorter received template copies on file.
+Evidence: Founder's choice, 2026-10-19, 14:37 MDT.
+Owner: Sammy Reed.
+2026-10-19 — D-03: THE CARRIED-IN FOUR-GATE PROPOSAL IS
+NOT ADOPTED
+Decision: A message carried in on 2026-10-19 proposed a
+new four-gate system (Gate 0 Scope & IP, Gate 1 Prototype,
+Gate 2 Pre-Production, Gate 3 Launch). It is NOT adopted.
+The Protected Three Gates stay. The proposal's useful
+checks — IP And Licensing Checklist, License Inventory,
+Clean-Room Record, Backup/Restore Test, Name/Trademark
+Check — bolt onto the existing Three Gates as checklist
+items instead of replacing them.
+Reason: a pasted message does not outrank executed
+governance, and gates are protected text.
+Alternatives: Adopt wholesale (rejected); discard entirely
+(rejected — the IP readiness material is sound).
+Evidence: Muse first-pass audit, 2026-10-19; founder's
+response: "I'm not mad... it's good for us to have it
+ready and done," on the readiness material.
+Owner: Sammy Reed.
+2026-10-19 — D-04: OPAL IS A PLATFORM, NOT A PERSON
+Decision: No written IP assignment can be obtained from
+Opal — Google Opal is an AI app platform, not a contractor.
+Any checklist item written as "get a signature from Opal"
+is void. The real controls are: (1) export Sammy's own
+work out of Opal before it shuts down, and (2) the
+platform's own terms, captured and kept.
+Alternatives: None — the premise was a category error.
+Evidence: Opal is Google's app-building platform; shutdown
+date November 17, 2026, per the founder's record.
+Owner: Sammy Reed.
+2026-10-19 — D-05: FIRST PROJECT POSTURE
+Decision: The first project under this package is Our
+Notebook, run as an internal controlled PROTOTYPE, not
+for resale, under the Originality Hold: before building
+further, confirm Our Notebook is not copying NotebookLM.
+Gemini's role on the originality question is Research And
+Development only — never builder.
+Alternatives: Public launch first (rejected by founder's
+scope discipline: "We're just building it").
+Evidence: Founder's spec and standing orders, 2026-10-19.
+Owner: Sammy Reed.
+2026-10-19 — D-06: THIS PACKAGE IS PREPARED, NOT ADOPTED
+Decision: This governance package is built and ready so
+the IP and records work is done ahead of need. Preparing
+it does not adopt any new governance, does not change any
+protected text, and does not declare any document a formal
+master. Anything in it that ever conflicts with Master
+Prompt v1.7 loses.
+Owner: Sammy Reed.
+2026-10-19 — D-07: ACCOUNT RULE (NEW)
+Decision: Sammy operates two accounts — one female, one
+male — each carrying its own pronoun set. Pronouns in any
+document follow the source account; they are not
+reconciled across accounts. The founder has stated "the
+pronouns don't matter" — meaning pronoun use is not to be
+flagged as a discrepancy. Documents retain whatever
+pronouns their source account used.
+Alternatives: Single pronoun set across all documents
+(not adopted); resolved per-document (not adopted).
+Evidence: Founder's statement, 2026-10-19.
+Owner: Sammy Reed.
+RISK REGISTER
+================================================================
+RISK REGISTER — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Opened: 2026-10-19
+Format: Risk · Likelihood · Impact · Mitigation · Owner ·
+Status
+================================================================
+RISK-01 — OPAL SHUTDOWN, WORK STILL INSIDE
+Risk: Google Opal shuts down November 17, 2026 (last safe
+day November 16). By the founder's count, only ONE app is
+truly rescued so far. A joint save-down sitting for the
+unsaved apps is still owed; anything not exported by the
+deadline is gone with the platform.
+Likelihood: HIGH — the shutdown date is set; the sitting
+has not happened yet.
+Impact: HIGH — unrecoverable loss of boards and builds.
+Mitigation: One rested joint sitting before November 16 —
+Sammy opens Opal, saves down the unsaved apps, Muse
+re-pulls fresh copies, diffs them, and rebuilds standalone
+if changed. Standing rule: anything built in Opal is
+exported the SAME DAY it is built.
+Owner: Sammy Reed (opens Opal) · Muse (pulls and records).
+Status: OPEN.
+RISK-02 — COPYRIGHT / TRADE-DRESS DRIFT ON THE NOTEBOOK
+Risk: Building a NotebookLM-style assistant can drift from
+"inspired by public functionality" into copying protected
+expression — user interface, wording, icons, onboarding,
+color scheme, or trade dress. "Different enough" is not a
+legal test; copying expression is where problems arise.
+Likelihood: MEDIUM — the reference product is close at hand
+and summaries of it circulate in the work.
+Impact: HIGH — legal exposure on the flagship project.
+Mitigation: The Originality Hold is IN FORCE: before
+building further, confirm Our Notebook is not copying
+NotebookLM. Clean-room process (see ip/ folder): public
+functionality only, own-words spec, implement from the
+spec only — no screenshots, no copied code, no copied
+prompts, no copied assets. No Google or NotebookLM logos,
+screenshots, or color schemes in the product or marketing.
+Owner: Sammy Reed · Muse (audit desk).
+Status: OPEN — Hold in force.
+RISK-03 — GEMINI REGENERATION DRIFT
+Risk: Gemini recompiles documents from its own conversation
+memory instead of carrying text verbatim. Proven twice on
+2026-10-19: a regenerated system prompt put The Bridge
+backwards and dropped the Conflict Order both times, even
+after correction. Interpreted instructions drift back to
+defaults; only whole verbatim text survives transfer.
+Likelihood: HIGH — observed behavior, repeated.
+Impact: MEDIUM — drifted governance text builds wrong work
+if it reaches a bench unchecked.
+Mitigation: Verbatim transfer law — whole text, never
+summaries. Standing phrase: "Copy verbatim the prompts
+from Prompt [number] into this box." Every Gemini-side
+fill gets a citation-marker sweep at storage time. Muse
+audits first pass; DeepSeek's verdict is final.
+Owner: Muse (audit desk) · Sammy Reed (the only bridge).
+Status: OPEN — managed by standing rules.
+RISK-04 — KEY AND ACCOUNT ACCESS LOSSES
+Risk: Sammy may have lost access to some API keys and
+accounts across roughly a hundred scattered saved copies.
+Saved is not the same as findable. Known open item: the
+Jazzy API key refresh in AI Studio is Priority 1 and not
+done. Which keys are lost is UNVERIFIED.
+Likelihood: MEDIUM.
+Impact: MEDIUM — a lost key can stall a build or lock a
+service the build depends on.
+Mitigation: The Vault/Map Split — the vault (Bitwarden,
+browser storage, Google Keep) holds the values; Muse
+holds the MAP, never the values. A Keys And Accounts
+Census is queued for rested hours to walk every account
+and key and record its state.
+Owner: Sammy Reed · Muse (map and census record).
+Status: OPEN — census queued.
+RISK-05 — PLATFORM LOCK-IN
+Risk: Every platform in the chain is easy to enter and
+walled on exit — the friction runs one way, by design.
+Live examples: Opal's shutdown stranding work that was
+never exported; Apple's photo transfer not carrying shared
+albums, which would strand the shared album Sammy uses as
+a doorway. Work that lives on only one platform is a
+hostage, not an asset.
+Likelihood: HIGH — structural, not incidental.
+Impact: HIGH — loss of work, photos, and records.
+Mitigation: Carry the assets out BEFORE cutting a lane.
+The Drive mirror is complete (1,099 of 1,103 items copied
+and verified, 2026-10-18); the four remaining stragglers'
+homes are not shrunk until they are carried. Copies rotate
+formats under the Four Copies Rule so no single failure
+loses the record.
+Owner: Sammy Reed · Muse (carries and verifies).
+Status: OPEN — managed by standing rules.
+RISK-06 — THE FOUNDER IS THE ONLY BRIDGE
+Risk: No AI talks to another AI. Every word between the
+crew crosses through Sammy, by his design. If the founder
+is unavailable for a stretch, the record has to stand on
+its own — that is the stated engine under this whole
+build: enough context, written down, that the system
+stands while he is gone.
+Likelihood: MEDIUM.
+Impact: HIGH if the record is thin; LOW where it is
+complete and dated.
+Mitigation: Court-ready documentation as a habit — dated
+decisions, signed verdicts, files with plain names and
+index pages, copies registered. This package is one piece
+of that record.
+ACCOUNT NOTE (2026-10-19): Pronoun use across crew
+documents is not a discrepancy. Sammy runs two accounts —
+one female, one male — each carrying its own pronoun set.
+Documents retain the pronouns their source account used.
+The founder has stated "the pronouns don't matter."
+See D-07.
+Owner: Muse (record keeper) · Sammy Reed (founder).
+Status: OPEN — mitigation ongoing.
+EVIDENCE LOG
+================================================================
+EVIDENCE LOG — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Opened: 2026-10-19
+Every claim carries a class: Verified Fact / Assumption /
+Proposal. Anything else is marked UNVERIFIED.
+Format: Claim · Classification · Source · Confidence
+================================================================
+E-01 — OPAL SHUTDOWN DATE
+Claim: Google Opal shuts down November 17, 2026; the last
+safe day to pull work out is November 16, 2026.
+Classification: Verified Fact (per Sammy's record).
+Source: Founder's standing record and the Opal test pack,
+2026-10-19.
+Confidence: High, per the record on file.
+E-02 — ONLY ONE APP RESCUED
+Claim: Of the apps in Opal, only ONE is truly rescued.
+Muse holds more material than that (boards, the standalone
+build, assets), but the founder's count governs: one.
+Classification: Verified Fact (per the founder).
+Source: Sammy's correction, 2026-10-18 / 2026-10-19 —
+"No, one app is rescued."
+Confidence: High — the founder's count is the record.
+E-03 — THE FOUR-GATE MESSAGE
+Claim: The "Master Blueprint Adoption & First-Project
+Governance" message received 2026-10-19 is Sammy's own
+instruction.
+Classification: UNVERIFIED — authorship unstated; the text
+is not in the founder's words and was carried in. Its
+contents are classified as a Proposal, nothing more.
+Source: The message as received, 2026-10-19.
+Confidence: High that authorship is unproven.
+E-04 — THE UNIFIED REWRITE'S STATUS
+Claim: The Unified Rewrite is Sammy's chosen blueprint
+copy — the longer one he picked in his own words on
+2026-10-19.
+Classification: Verified Fact.
+Source: Founder's words, 2026-10-19, 14:37 MDT.
+Confidence: High.
+Note: The further claim "the Unified Rewrite is the
+formally adopted master standard" is NOT a fact. No such
+declaration exists. Classified: Assumption — rejected
+until the founder declares it himself.
+E-05 — OUR NOTEBOOK V1 BEHAVIOR
+Claim: Our Notebook v1 makes no network requests; all data
+stays in the browser's local storage under one key
+(ourNotebookV1) on the user's own device; export is a
+faithful copy and import restores it; no credential
+handling exists in the code; the PROTOTYPE label is always
+visible.
+Classification: Assumption — builder-stated claims in the
+Audit Package v1 (2026-10-18), written for DeepSeek.
+Independent verification is PENDING: Sammy carries the
+audit packages; DeepSeek's return is not yet on file.
+Source: Audit Package — Our Notebook v1, 2026-10-18.
+Confidence: Medium — builder's word, unaudited so far.
+E-06 — GEMINI DRIFT IS A MECHANISM, NOT AN ACCIDENT
+Claim: Gemini regenerates stored documents from its own
+conversation memory; on 2026-10-19 two successive
+regenerations both restored the same errors (The Bridge
+backwards, Conflict Order missing) after correction,
+while whole verbatim text transferred intact.
+Classification: Verified Fact — observed in this record,
+twice, same day.
+Source: Gemini System Prompt v2.0 audit and the Unified
+Master System Prompt audit, both 2026-10-19.
+Confidence: High.
+E-07 — THE DRIVE MIRROR COUNT
+Claim: 1,099 of 1,103 Drive items are mirrored as copies
+on Muse's side; four named stragglers remain only in
+Drive.
+Classification: Verified Fact — counted and verified at
+completion.
+Source: Drive mirror completion record, 2026-10-18.
+Confidence: High.
+E-08 — AI PROVIDER TERMS
+Claim: The terms of the AI providers in use (Muse, Gemini,
+DeepSeek) settle commercial use of outputs, training on
+our inputs, and ownership of outputs in Sammy's favor.
+Classification: UNVERIFIED — the terms have not been
+captured or read for this project yet. See
+licenses/license-inventory.txt. No reliance is placed on
+this claim anywhere in the package.
+Source: None yet — capture is PENDING.
+Confidence: None claimed.
+LICENSE INVENTORY
+================================================================
+LICENSE INVENTORY — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Opened: 2026-10-19
+Rule: anything not read is marked UNVERIFIED. Nothing in
+this inventory is assumed.
+================================================================
+ITEM 1 — OUR NOTEBOOK V1 (THE BENCHMARK BUILD)
+What it is: One single self-contained HTML file
+(our-notebook.html, built 2026-10-18) — HTML, CSS, and
+JavaScript written by Muse at Sammy Reed's direction.
+External libraries: NONE.
+Frameworks: NONE.
+External fonts: NONE — the file uses the device's system
+font stack (Georgia, Times New Roman, serif).
+Icons: NONE copied — the header and buttons use standard
+Unicode emoji characters, rendered by the device's own
+operating system; no icon set or image asset is bundled.
+Images: NONE.
+Datasets: NONE.
+Storage: The browser's own local storage — a standard
+browser feature, not a third-party component.
+License status: ORIGINAL WORK. Written for Sammy Reed;
+provenance recorded in ip/ip-clearance-checklist.txt.
+Commercial-use status: Not for resale by founder's law;
+held as his personal and fleet tool.
+ITEM 2 — NOTEBOOKLM (GOOGLE) — REFERENCE ONLY
+What it is: The reference product whose public functionality
+inspired Our Notebook.
+What was taken from it: NOTHING. No code, no prompts, no
+user interface, no text, no icons, no datasets, no color
+scheme, no trade dress.
+License status: CLEAR — nothing used, nothing to license.
+ITEM 3 — AI PROVIDER: CLAUDE (ANTHROPIC)
+(Corrected at audit 2026-10-19 — previously mislabeled
+"Meta.")
+Use in the project: Builder and record keeper; author of
+the benchmark build and of this package.
+Terms: UNVERIFIED — the provider's terms (commercial use
+of outputs, training on inputs, ownership of outputs) have
+not been captured or read for this project yet.
+Status: PENDING capture.
+ITEM 4 — AI PROVIDER: GEMINI (GOOGLE)
+Use in the project: Research And Development and clerical
+lane, scoped notebook, light load.
+Terms: UNVERIFIED — not yet captured for this project.
+Status: PENDING capture.
+ITEM 5 — AI PROVIDER: DEEPSEEK
+Use in the project: Final Auditor. Audits; never builds.
+Terms: UNVERIFIED — not yet captured for this project.
+Status: PENDING capture.
+ITEM 6 — AI PROVIDER: CHATGPT (OPENAI)
+Use in the project: Builder lane; subscription currently
+unpaid, access limited.
+Terms: UNVERIFIED — not yet captured for this project.
+Status: PENDING capture.
+HOUSE RULE FOR TERMS
+Platform terms that govern a build are captured every 90
+days, and prior captures are never deleted (per the
+MiniApps Build Order Template discipline). The first
+capture for the providers above is owed before any public
+or commercial step — see gate-status-report.txt,
+conditions.
+INVENTORY GAPS, STATED PLAINLY
+- All four AI provider term sets: UNVERIFIED.
+- No third-party code, font, icon, or dataset exists in
+  the benchmark build, so no other gaps exist yet. Every
+  future dependency gets a line here BEFORE it ships, with
+  its license and commercial-use status, or it does not
+  ship.
+IP CLEARANCE CHECKLIST
+================================================================
+IP CLEARANCE CHECKLIST — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Opened: 2026-10-19
+"Different enough" is not a test. Copyright protects
+expression, not ideas or functionality. This checklist is
+the record that we built from our own spec, in our own
+words, and copied nothing.
+================================================================
+THE CLEAN-ROOM PROCESS — OUR NOTEBOOK
+[ DONE ] 1. Reference public functionality only.
+  Our Notebook was specified from publicly visible
+  functionality: keep notebooks, take notes, save them,
+  search them. No insider material, no leaked material.
+[ DONE ] 2. Write our own spec in our own words.
+  The spec stands on file: our-notebook-spec-sammy-v1
+  (2026-10-19) — Sammy's own list in his own numbering,
+  with Muse's additions marked as Muse's. The build
+  spec in the Opal test pack is likewise written in-house.
+[ DONE ] 3. Implement only from that spec.
+  The benchmark build (2026-10-18) was built from our
+  spec. No screenshots of any reference product were used
+  as a design source; no code, prompts, or assets were
+  copied from anywhere.
+[ DONE ] 4. Original branding and dress.
+  Our own name in-house, our own layout, our own words in
+  every label and button. No Google or NotebookLM logos,
+  screenshots, color schemes, or trade dress anywhere in
+  the product or in any marketing.
+[ STARTED ] 5. Provenance log.
+  Inspiration, declared openly: NotebookLM showed the
+  shape of the idea; the paper trail is a posture, not a
+  secret — the founder declared the inspiration himself.
+  What we wrote originally: the spec, the code, the three
+  prompt types (Memory · Quality Of Work · Project
+  Specific), the working words, the Six-Test Score Sheet.
+  This package is the log's home; entries get added as
+  the work proceeds.
+[ PENDING ] 6. Name / trademark check.
+  "Our Notebook" is an internal prototype name only. No
+  public naming, printing, or marketing use happens
+  until a name and trademark search is run and recorded
+  here. Status: PENDING — required before any public use.
+[ DONE ] 7. Dependency audit for the benchmark build.
+  Zero external dependencies — see
+  licenses/license-inventory.txt. Every future dependency
+  is audited before it ships.
+[ PENDING ] 8. AI provider terms.
+  Commercial use of outputs, training on inputs, and
+  ownership of outputs for each provider in the crew:
+  UNVERIFIED, capture owed (see license inventory,
+  Items 3–6).
+[ PENDING ] 9. Independent confirmation.
+  The clean-room claims above are the builder's record.
+  Independent confirmation rides with DeepSeek's final
+  audit of the notebook package; Sammy carries the audit
+  packages and his return verdict is not yet on file.
+THE ORIGINALITY HOLD — STANDING
+Before building further on Our Notebook, confirm it is
+not copying NotebookLM. The hold is the founder's own
+order and stays in force until lifted by the founder.
+Gemini may be consulted as Research And Development on
+the originality question only — never as builder.
+STOP CONDITIONS (from the founder's law, restated)
+STOP if any of these turn true:
+- Any copied code, prompt, user interface, text, icon,
+  dataset, or trade dress from a reference product.
+- Any feature that reproduces copyrighted text at scale
+  without rights.
+- An unclear license on any asset or dependency.
+- Public naming before the trademark check in Item 6.
+- The full internal blueprint placed inside a runtime
+  product prompt, where users or attackers could read it.
+  Development prompts and runtime prompts are separate
+  layers; internal governance does not ship in the product.
+SECURITY BASELINE
+================================================================
+SECURITY BASELINE — MASTER BLUEPRINT GOVERNANCE PACKAGE
+Project: Our Notebook, First Test Cut
+Opened: 2026-10-19
+Posture: PROTOTYPE — local only. This baseline covers the
+prototype. Production controls get their own review at the
+Contract Gate; nothing here claims production readiness.
+================================================================
+DATA FLOW — ONE PAGE, WHOLE TRUTH
+1. Sammy types in the app, in a browser, on his own device
+   (iPhone or Chromebook).
+2. The app saves what he types to the browser's local
+   storage, on that same device, under one key
+   (ourNotebookV1). Nothing leaves the device.
+3. Export: the app hands the browser a file to download —
+   the current notebook as .txt, or everything as .json.
+   The file lands wherever Sammy saves it.
+4. Import: Sammy picks a .json file; the app reads it and
+   restores what it holds.
+5. The crew sees notebook content only when Sammy carries
+   it to them himself. Sammy is the only bridge. There is
+   no sync, no account, no server, no network call of any
+   kind — Test 6 (ALONE) in the score sheet proves it with
+   the network off.
+WHAT DOES NOT EXIST IN THIS BUILD
+- No accounts and no sign-in.
+- No cloud storage and no external saving.
+- No analytics, no tracking, no telemetry.
+- No field for an API key, password, or token — by design.
+THE SECRETS RULE — HOUSE LAW, RESTATED
+- The vault holds the values: Bitwarden, browser storage,
+  or Google Keep. Muse holds the MAP — which keys exist
+  and where they live — and never the values.
+- Keys, tokens, and passwords never go inside notes,
+  prompts, shortcuts, code, or this notebook.
+- A key is a wallet. Code gets copied everywhere a file
+  goes; a secret in code is a secret published.
+KNOWN LIMITS — STATED PLAINLY (from Audit Package v1)
+- Local storage is per-browser, per-device: notes do not
+  sync between the phone and the Chromebook. Exports are
+  the bridge.
+- Browser storage can be cleared by the browser or the
+  operating system. The app tells the user to export
+  copies; the copies are the protection.
+- No encryption at rest. Nothing secret belongs in this
+  notebook — that is rule, not oversight.
+BACKUPS AND RESTORE
+- The Four Copies Rule governs project files: 1 ORIGINAL
+  (untouched) · 2 MASTER · 3 DICTIONARY · 4 WORKING (the
+  only one edited, when Sammy says). The system registers
+  copies; it does not make them.
+- Notebook data backs up by export (.json). Restore is
+  import. The score sheet's Test 5 (RETURN) exercises the
+  full loop: delete a note, import, the note comes back.
+- BACKUP/RESTORE TEST RECORD: PENDING — the loop exists
+  and is specified, but a dated, recorded run of the full
+  backup-and-restore test for this project has not been
+  logged yet. A backup that has never been restored is an
+  assumption, not a backup. The recorded run is a
+  condition in gate-status-report.txt.
+INCIDENTS
+Prototype phase: no users, no data at risk beyond Sammy's
+own device. If the prototype ever holds something it
+should not, the response is: stop, export nothing, tell
+the founder, record it here.
+ACCEPTANCE TESTS
+================================================================
+ACCEPTANCE TESTS — OUR NOTEBOOK, FIRST TEST CUT
+Mapped: the Six-Test Score Sheet to the requirements
+Source of the tests: Opal Test Pack, 2026-10-19
+Source of the requirements: the build spec in that pack,
+numbered R1–R8 below
+Pass or fail, no middle. Run in order.
+================================================================
+THE REQUIREMENTS
+R1 — One self-contained file: no accounts, no sign-in, no
+     cloud, no external scripts, fonts, images, or network
+     calls of any kind.
+R2 — Opens with three notebooks: Ideas & Inspiration ·
+     Sammy · Muse — Record Keeper.
+R3 — Create, rename, and delete notebooks; create, edit,
+     and delete notes.
+R4 — Autosave to the browser's local storage on the
+     device, as the user types.
+R5 — One search box searches across ALL notebooks.
+R6 — Export the current notebook as .txt; export
+     everything as one .json; import a .json to restore.
+R7 — The word PROTOTYPE stays visible in the header at
+     all times.
+R8 — Big buttons and big text; and no place anywhere to
+     enter an API key, password, or token.
+THE SIX TESTS, MAPPED
+TEST 1 — MAKE
+  Do: Create a new notebook, rename it, add a note, type
+  in it.
+  Proves: R3. Also the opening state of R2 (the three
+  named notebooks are what you see first) and the working
+  feel of R8 (the buttons and text you just used).
+TEST 2 — SURVIVE
+  Do: Close the app or file completely. Reopen it. The
+  note must still be there, word for word.
+  Proves: R4 — autosave that actually saves. This is the
+  save war in miniature; a fail here fails the product's
+  reason to exist.
+TEST 3 — FIND
+  Do: Put a distinctive word in a note in the SECOND
+  notebook. The one search box must find it from anywhere.
+  Proves: R5 — one box, all notebooks, no silos.
+TEST 4 — LEAVE
+  Do: Export everything as .json and one notebook as
+  .txt. Both files must actually download and open.
+  Proves: R6, export half — the way out works, on paper,
+  not just in promise.
+TEST 5 — RETURN
+  Do: Delete a note. Import the .json from Test 4. The
+  note must come back.
+  Proves: R6, import half — export and import together are
+  the bridge, and the bridge has to hold weight. This
+  test doubles as the project's backup/restore test; a
+  dated run of it gets logged in
+  security/security-baseline.txt.
+TEST 6 — ALONE
+  Do: Turn off Wi-Fi and data. Reopen. Everything above
+  must still work with no network.
+  Proves: R1 — the whole requirement, proven the hard
+  way. If it phones home, it fails the whole test, not
+  just this line: our notebook answers to nobody's door
+  but ours.
+COVERAGE — STATED PLAINLY
+- R1 through R6 are each proven by at least one test.
+- R7 (PROTOTYPE label) is proven by inspection: it is
+  checked by eye at the start of every test run, since
+  every test opens the app. It has no numbered test of
+  its own.
+- R8 (big buttons, big text, no secret fields) is proven
+  by inspection plus use: Test 1 is worked by hand on the
+  phone, and the absence of any key, password, or token
+  field is confirmed by inspection of the build. It has
+  no numbered test of its own.
+- Nothing outside R1–R8 is claimed as tested.
+WHAT THE VERDICT MEANS (from the score sheet)
+- All six pass: the build method is proven for the next
+  apps on the list.
+- Fail SURVIVE or RETURN: that is not a notebook, it is a
+  trap with our name on it. Cut it; Muse's benchmark
+  stays the notebook.
+- Fail ALONE: record which step needed the network. That
+  fact alone is worth the test.
+TEST RECORD
+Benchmark build (Muse, 2026-10-18): built to this spec;
+a dated, signed run of the six tests against it is
+PENDING logging here.
+Opal test build: not yet built. House rule — anything
+built in Opal is exported the SAME DAY, with the score
+sheet, ahead of the November 17 shutdown.
