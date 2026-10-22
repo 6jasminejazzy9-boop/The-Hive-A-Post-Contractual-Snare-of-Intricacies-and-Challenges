@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <rect width="1280" height="400" fill="#0a0a0a"/>
+  <g fill="none" stroke="#f5c542" stroke-opacity="0.16" stroke-width="2">
+    <polygon points="90,60 120,77 120,111 90,128 60,111 60,77"/>
+    <polygon points="150,60 180,77 180,111 150,128 120,111 120,77"/>
+    <polygon points="120,128 150,145 150,179 120,196 90,179 90,145"/>
+    <polygon points="1190,60 1220,77 1220,111 1190,128 1160,111 1160,77"/>
+    <polygon points="1130,60 1160,77 1160,111 1130,128 1100,111 1100,77"/>
+    <polygon points="1160,128 1190,145 1190,179 1160,196 1130,179 1130,145"/>
+    <polygon points="90,272 120,289 120,323 90,340 60,323 60,289"/>
+    <polygon points="1190,272 1220,289 1220,323 1190,340 1160,323 1160,289"/>
+  </g>
+  <rect x="14" y="14" width="1252" height="372" fill="none" stroke="#f5c542" stroke-width="3"/>
+  <rect x="24" y="24" width="1232" height="352" fill="none" stroke="#f5c542" stroke-opacity="0.4" stroke-width="1"/>
+  <!-- crowned bee -->
+  <g>
+    <ellipse cx="588" cy="118" rx="34" ry="16" fill="#ffffff" fill-opacity="0.85" transform="rotate(-24 588 118)"/>
+    <ellipse cx="692" cy="118" rx="34" ry="16" fill="#ffffff" fill-opacity="0.85" transform="rotate(24 692 118)"/>
+    <ellipse cx="640" cy="150" rx="44" ry="54" fill="#f5c542"/>
+    <path d="M600 128 h80 M598 152 h84 M606 176 h68" stroke="#0a0a0a" stroke-width="9"/>
+    <polygon points="612,84 624,62 640,80 656,62 668,84 664,94 616,94" fill="#f5c542" stroke="#0a0a0a" stroke-width="3"/>
+    <polygon points="640,204 632,222 648,222" fill="#f5c542"/>
+  </g>
+  <text x="640" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="14" fill="#f5c542">THE HIVE</text>
+  <text x="640" y="336" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="6" fill="#e8e3d5">ONE BRIDGE · EVERY LANE ACCOUNTED FOR</text>
+  <text x="640" y="368" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4" fill="#8a8a8a">© SAMMY REED — AI WORKFLOW ENGINEER</text>
+</svg>

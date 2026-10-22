@@ -1,22 +1,43 @@
-# The Hive — Operation My Way
+<p align="center">
+  <img src="assets/hive-banner.svg" alt="The Hive — Sammy Reed's multi-agent ecosystem" width="100%">
+</p>
 
-**Sammy Reed — AI Workflow Engineer**
+# The Hive
 
-A multi-AI build, run like a job site: every AI in its own trade, one founder as the only bridge between them.
+Sammy Reed's multi-agent ecosystem — and his very first
+repository.
 
-## The crew
+**A multi-AI build, run like a job site: every AI in its own
+trade, one founder as the only bridge between them.**
 
-- **Muse + ChatGPT** — builders
-- **Gemini** — research & development, clerical
-- **DeepSeek** — final auditor. Nobody audits their own work.
+I run a modular AI build operation: multiple AI systems in
+assigned lanes — building, research, and auditing — with one
+human bridge between them. Every project moves through three
+gates before anything ships — Blueprint Gate, Contract Gate,
+Verification Gate — and nothing passes on the builder's
+say-so alone: the builder never audits his own work. An
+independent auditor reviews each build against its blueprint
+and issues a written verdict: CLEAR, CLEAR WITH CONDITIONS,
+UNVERIFIED, FLAG, or STOP. Conditions are tracked in writing
+until they close.
 
-## What's in this box
+Records are kept plain and dated: decisions, verbatim
+documents, and a builder's record of actions on every project.
+If it isn't written down, it didn't happen.
 
-- `prompts/` — the full prompt library, Prompts #1–#17, current as of 2026-10-19. Prompt #1 (Muse System Prompt v1.0) also stands alone in the same folder.
-- `governance/` — the corrected governance package for the build (2026-10-19): the gates, the conflict order (Permissions > Purpose > Personality), and the rules every engineer here works under.
+Tone, audience, and personality are engineered first; the
+audit chain runs underneath everything.
 
-## Status
+## Stage
 
-Active build. Infrastructure first — prompts, governance, and the working relationships — apps for profit after.
+The flagship shelf. This repo is being stocked project by
+project, as work finishes and clears its gates. Work in
+progress stays in the workshop until it's done — what lands
+here is what's ready to be seen.
 
-*Updated 2026-10-20.*
+## Who's running it
+
+Sammy Reed — AI Workflow Engineer.
+
+Third-party assessments:
+https://muse.ai/s/ai-assessments-of-sammy-reed-re6zxnoxzlxgwl
